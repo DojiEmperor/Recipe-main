@@ -15,7 +15,7 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   background-color: hsl(30, 54%, 90%);
   font-family: "Outfit", sans-serif;
   min-height: 100%;
