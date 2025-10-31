@@ -16,22 +16,16 @@
 }
 
 body {
-  /* Make body a column flex container so footer can sit after main
-       and main can take remaining space for proper vertical centering */
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   background-color: hsl(30, 54%, 90%);
   font-family: "Outfit", sans-serif;
+  min-height: 100vh;
 }
 
 main {
   display: flex;
-  /* Let main grow to fill available space between header/footer so its
-       contents can be vertically centered without pushing the footer off-screen */
-  flex: 1;
   align-items: center;
   justify-content: center;
+  min-height: 100vh;
 }
 
 .container {
